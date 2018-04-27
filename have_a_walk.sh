@@ -1,8 +1,8 @@
 #/bin/bash
 
 message="have a walk, man!?"
-workInterval=10
-postponeInterval=3
+workInterval=5000
+postponeInterval=300
 
 sleep $workInterval
 zenity --question --text="$message"
